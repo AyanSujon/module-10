@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container, h1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    border: 1px solid salmon;
+    margin-top: 50px;
+    /* overflow: auto; */
+    overflow-y: scroll;
+    overflow: inherit;
+
+
+
+}
